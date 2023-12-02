@@ -8,9 +8,9 @@ function love.load()
     world:addCollisionClass('Player', {ignores = {'Player'}})
     world:addCollisionClass('Danger')
 
-   require('link')
-   require('kirby')
-   require('map')
+   require('./src/players/link')
+   require('./src/players/kirby')
+   require('.src/map/platforms')
 end
 
 function love.update(dt)
