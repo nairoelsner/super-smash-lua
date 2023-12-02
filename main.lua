@@ -4,13 +4,13 @@ function love.load()
     world:setQueryDebugDrawing(true)
 
     world:addCollisionClass('Platform')
-    world:addCollisionClass('Enemy')
     world:addCollisionClass('Player', {ignores = {'Player'}})
     world:addCollisionClass('Danger')
 
    require('./src/players/link')
    require('./src/players/kirby')
-   require('.src/map/platforms')
+   require('./src/map/platforms')
+   require('./src/map/dangerZones')
 end
 
 function love.update(dt)
