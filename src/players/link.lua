@@ -1,4 +1,4 @@
-link = world:newRectangleCollider(350, 100, 40, 70)
+link = world:newRectangleCollider(130, 100, 40, 70)
 link.height = 70
 link.width = 40
 link.x, link.y = link:getPosition()

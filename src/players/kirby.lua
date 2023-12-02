@@ -1,4 +1,4 @@
-kirby = world:newRectangleCollider(550, 100, 46, 46)
+kirby = world:newRectangleCollider(625, 100, 46, 46)
 kirby.height = 46
 kirby.width = 46
 kirby.x, kirby.y = kirby:getPosition()
